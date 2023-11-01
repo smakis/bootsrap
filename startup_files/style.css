@@ -1,0 +1,20 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.startup-title {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.859);
+}
+
+.top-buffer {
+  margin-top: 300px;
+}
+
+.btn-custom {
+  border-radius: 15px;
+  font-size: small;
+}
