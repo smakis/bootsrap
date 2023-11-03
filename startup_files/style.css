@@ -3,6 +3,12 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .startup-title {
@@ -15,6 +21,25 @@ html {
 }
 
 .btn-custom {
-  border-radius: 15px;
-  font-size: small;
+  border-radius: 300px;
+  padding: 1rem 2rem;
+  background-color: rgb(25, 180, 167);
+  border-color: rgb(25, 180, 167);
+}
+
+.btn-custom:hover {
+  background-color: rgb(14, 131, 121);
+  border-width: 4px;
+  border-color: rgb(14, 131, 121);
+}
+
+hr {
+  border-color: rgb(25, 180, 167);
+  border-width: 2px;
+  max-width: 65px;
+  opacity: 60;
+}
+
+.buffer {
+  height: 13em;
 }
